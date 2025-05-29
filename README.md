@@ -1,7 +1,7 @@
 # CYBERSECURITY-PROJECTS
 🛡️ Cybersecurity & Infrastructure Security Portfolio – Harish Babu G
 
-Welcome to my professional cybersecurity portfolio. This repository showcases a collection of real-world-inspired projects spanning offensive security, infrastructure hardening, cloud deployments, Linux system administration, and threat detection. Each project reflects my hands-on experience in simulated and production-like environments.
+Welcome to my cybersecurity portfolio. This repository showcases a collection of real-world-inspired projects spanning offensive security, infrastructure hardening, cloud deployments, Linux system administration, and threat detection. Each project reflects my hands-on experience in simulated and production-like environments.
 
 Each folder contains a detailed README with technical walkthroughs, configurations, tools used, and relevant screenshots.
 
