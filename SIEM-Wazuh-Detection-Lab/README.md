@@ -121,37 +121,38 @@ This project demonstrates how to leverage Wazuh SIEM for detecting unauthorized 
 
    These screenshots were captured during the lab session.
 
-📷 Screenshot [1] – Start the Wazuh VM in Hyper-V – [View](SIEM-Wazuh-Detection-Lab/Screenshots/01-start-wazuh-vm-hyperv.png)  
+📷 Screenshot [1] – Start the Wazuh VM in Hyper-V – [View](Screenshots/01-start-wazuh-vm-hyperv.png)  
 
-📷 Screenshot [2] – Login to the Wazuh Server – [View](SIEM-Wazuh-Detection-Lab/Screenshots/02-login-wazuh-server.png)  
+📷 Screenshot [2] – Login to the Wazuh Server – [View](Screenshots/02-login-wazuh-server.png)  
 
-📷 Screenshot [3] – Install Wazuh Agent on Windows 7 – [View](SIEM-Wazuh-Detection-Lab/Screenshots/03-install-wazuh-agent-win7.png)  
+📷 Screenshot [3] – Install Wazuh Agent on Windows 7 – [View](Screenshots/03-install-wazuh-agent-win7.png)  
 
-📷 Screenshot [4] – Agent IP Configured on Windows 7 – [View](SIEM-Wazuh-Detection-Lab/Screenshots/04-agent-ip-configured-win7.png)  
+📷 Screenshot [4] – Agent IP Configured on Windows 7 – [View](Screenshots/04-agent-ip-configured-win7.png)  
 
-📷 Screenshot [5] – Launch the Wazuh Web UI – [View](SIEM-Wazuh-Detection-Lab/Screenshots/05-launch-wazuh-webui.png)  
+📷 Screenshot [5] – Launch the Wazuh Web UI – [View](Screenshots/05-launch-wazuh-webui.png)  
 
-📷 Screenshot [6] – Windows 7 Added Successfully to Wazuh – [View](SIEM-Wazuh-Detection-Lab/Screenshots/06-win7-added-wazuh-success.png)  
+📷 Screenshot [6] – Windows 7 Added Successfully to Wazuh – [View](Screenshots/06-win7-added-wazuh-success.png)  
 
-📷 Screenshot [7] – Open gpedit.msc on Windows 7 – [View](SIEM-Wazuh-Detection-Lab/Screenshots/07-open-gpedit-win7.png)  
+📷 Screenshot [7] – Open gpedit.msc on Windows 7 – [View](Screenshots/07-open-gpedit-win7.png)  
 
-📷 Screenshot [8] – Enable HIDS Agent Log Forwarding – [View](SIEM-Wazuh-Detection-Lab/Screenshots/08-enable-hids-forwarding.png)  
+📷 Screenshot [8] – Enable HIDS Agent Log Forwarding – [View](Screenshots/08-enable-hids-forwarding.png)  
 
-📷 Screenshot [9] – Enable Audit Account Logon Events – [View](SIEM-Wazuh-Detection-Lab/Screenshots/09-enable-audit-ACC-policies.png)  
+📷 Screenshot [9] – Enable Audit Account Logon Events – [View](Screenshots/09-enable-audit-ACC-policies.png)  
 
-📷 Screenshot [10] – Enable Audit Logon Events – [View](SIEM-Wazuh-Detection-Lab/Screenshots/10-enable-audit-policies.png)  
+📷 Screenshot [10] – Enable Audit Logon Events – [View](Screenshots/10-enable-audit-policies.png)  
 
-📷 Screenshot [11] – Apply Group Policy via gpupdate – [View](SIEM-Wazuh-Detection-Lab/Screenshots/11-gpupdate-force.png)  
+📷 Screenshot [11] – Apply Group Policy via gpupdate – [View](Screenshots/11-gpupdate-force.png)  
 
-📷 Screenshot [12] – Log Off Windows 7 System – [View](SIEM-Wazuh-Detection-Lab/Screenshots/12-win7-logoff.png)  
+📷 Screenshot [12] – Log Off Windows 7 System – [View](Screenshots/12-win7-logoff.png)  
 
-📷 Screenshot [13] – Simulate Failed Login Attempts – [View](SIEM-Wazuh-Detection-Lab/Screenshots/13-failed-login-attempts.png)  
+📷 Screenshot [13] – Simulate Failed Login Attempts – [View](Screenshots/13-failed-login-attempts.png)  
 
-📷 Screenshot [14] – Select Win7 Machine in Wazuh – [View](SIEM-Wazuh-Detection-Lab/Screenshots/14-select-win7-machine-wazuh.png)  
+📷 Screenshot [14] – Select Win7 Machine in Wazuh – [View](Screenshots/14-select-win7-machine-wazuh.png)  
 
-📷 Screenshot [15] – Open Security Events Tab – [View](SIEM-Wazuh-Detection-Lab/Screenshots/15-open-security-events.png)  
+📷 Screenshot [15] – Open Security Events Tab – [View](Screenshots/15-open-security-events.png)  
 
-📷 Screenshot [16] – Authentication Failure Logs Detected – [View](SIEM-Wazuh-Detection-Lab/Screenshots/16-auth-failure-logs.png)  
+📷 Screenshot [16] – Authentication Failure Logs Detected – [View](Screenshots/16-auth-failure-logs.png)  
+
 
 
 ⚠️ Disclaimer
