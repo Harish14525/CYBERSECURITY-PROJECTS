@@ -25,23 +25,20 @@ Contact: harishatcosmos@gmail.com
 🔍 Overview :
 
 This project demonstrates how to leverage Wazuh SIEM for detecting unauthorized login attempts on a Windows 7 endpoint. It covers agent installation, audit policy configuration, log forwarding, and monitoring failed authentication events via the Wazuh Web UI.
-The objective is to simulate a typical security operation center (SOC) use case—real-time detection and centralized logging of failed logins—to enhance forensic readiness and threat awareness.
+
+> 🎯The objective is to simulate a typical security operation center (SOC) use case—real-time detection and centralized logging of failed logins—to enhance forensic readiness and threat awareness.
 
 🧰 Tools & Environment :
 
-Component	                              Details
-
-Wazuh Manager (SIEM)	                  IP: 192.168.X.X (Lab private)
-                                        Web UI: https://192.168.X.X
-                                        Default Login: admin / admin
-                                                 
-Windows 7 (Target VM)	                  IP: 192.168.Y.Y (Lab private)
-
-Virtualization	                        Microsoft Hyper-V
-
-Agent	                                  Wazuh OSSEC Agent for Windows
-
-Access	                                Windows CMD (Run as Administrator)
+|       Component       |                    Details                   |
+|-----------------------|----------------------------------------------|
+| Wazuh Manager (SIEM)  | `192.168.X.X` (Private lab IP)               |
+|                       | Web UI: `https://192.168.X.X`                |
+|                       | Default Login: `admin / admin`               |
+| Windows 7 VM          | `192.168.Y.Y` (Private lab IP)               |
+| Virtualization        | Microsoft Hyper-V                            |
+| Agent                 | Wazuh OSSEC Agent for Windows                |
+| Access Method         | Windows CMD (Run as Administrator)           |
 
 
 ⚙️ Lab Setup & Configuration
@@ -122,15 +119,53 @@ Access	                                Windows CMD (Run as Administrator)
 
 📸 Screenshots
 
-    Agent installation and service status on Windows 7
+   These screenshots were captured during the lab session.
 
-    Agent visible and reporting in Wazuh Manager UI
+📷 **Wazuh Manager Running**  
+[01](screenshots/01-wazuh-manager-status.png)
 
-    Audit policy settings in Local Group Policy Editor (gpedit.msc)
+📷 **Wazuh Web UI Login Screen**  
+[02](screenshots/02-wazuh-login-screen.png)
 
-    Failed login attempts on Windows 7 machine
+📷 **Wazuh Dashboard**  
+[03](screenshots/03-wazuh-dashboard.png)
 
-    Authentication failure logs visible on Wazuh Web UI
+📷 Agent Installation Started  
+[04](screenshots/04-agent-installation-started.png)
+
+📷 IP Configured in Agent UI  
+[05](screenshots/05-ip-configured-agent-ui.png)
+
+📷 Win32 UI Opened (Agent Config)  
+[06](screenshots/06-win32-ui-agent-config.png)
+
+📷 Agent Key Generated  
+[07](screenshots/07-agent-key-generated.png)
+
+📷 Windows 7 Agent Added to Wazuh  
+[08](screenshots/08-win7-agent-added.png)
+
+📷 Group Policy Editor Opened  
+[09](screenshots/09-group-policy-editor.png)
+
+📷 Audit Policy Settings  
+[10](screenshots/10-audit-policy-settings.png)
+
+📷 Success + Failure Selected  
+[11](screenshots/11-success-failure-selected.png)
+
+📷 Policy Applied via gpupdate  
+[12](screenshots/12-policy-applied-gpupdate.png)
+
+📷 Failed Login Attempts Simulation  
+[13](screenshots/13-failed-login-simulation.png)
+
+📷 Security Events Tab in Wazuh  
+[14](screenshots/14-security-events-tab.png)
+
+📷 Authentication Failure Logs Detected  
+[15](screenshots/15-auth-failure-logs.png)
+
 
 ⚠️ Disclaimer
 
