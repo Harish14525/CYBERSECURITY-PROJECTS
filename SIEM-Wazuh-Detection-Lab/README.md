@@ -121,50 +121,54 @@ This project demonstrates how to leverage Wazuh SIEM for detecting unauthorized 
 
    These screenshots were captured during the lab session.
 
-📷 **Wazuh Manager Running**  
-[01](screenshots/01-wazuh-manager-status.png)
+📷 **Start the Wazuh VM in Hyper-V**  
+[01](screenshots/01-start-wazuh-vm-hyperv.png)
 
-📷 **Wazuh Web UI Login Screen**  
-[02](screenshots/02-wazuh-login-screen.png)
+📷 **Login to the Wazuh Server**  
+[02](screenshots/02-login-wazuh-server.png)
 
-📷 **Wazuh Dashboard**  
-[03](screenshots/03-wazuh-dashboard.png)
+📷 **Install Wazuh Agent on Windows 7**  
+[03](screenshots/03-install-wazuh-agent-win7.png)
 
-📷 Agent Installation Started  
-[04](screenshots/04-agent-installation-started.png)
+📷 **Agent IP Configured on Windows 7**  
+[04](screenshots/04-agent-ip-configured-win7.png)
 
-📷 IP Configured in Agent UI  
-[05](screenshots/05-ip-configured-agent-ui.png)
+📷 **Launch the Wazuh Web UI**  
+[05](screenshots/05-launch-wazuh-webui.png)
 
-📷 Win32 UI Opened (Agent Config)  
-[06](screenshots/06-win32-ui-agent-config.png)
+📷 **Windows 7 Added Successfully to Wazuh**  
+[06](screenshots/06-win7-added-wazuh-success.png)
 
-📷 Agent Key Generated  
-[07](screenshots/07-agent-key-generated.png)
+📷 **Open gpedit.msc on Windows 7**  
+[07](screenshots/07-open-gpedit-win7.png)
 
-📷 Windows 7 Agent Added to Wazuh  
-[08](screenshots/08-win7-agent-added.png)
+📷 **Enable HIDS Agent Log Forwarding**  
+[08](screenshots/08-enable-hids-forwarding.png)
 
-📷 Group Policy Editor Opened  
-[09](screenshots/09-group-policy-editor.png)
+📷 **Enable Audit Account Logon Events**  
+[09](screenshots/09-enable-audit-ACC-policies.png)
 
-📷 Audit Policy Settings  
-[10](screenshots/10-audit-policy-settings.png)
+📷 **Enable Audit Logon Events**  
+[10](screenshots/10-enable-audit-policies.png)
 
-📷 Success + Failure Selected  
-[11](screenshots/11-success-failure-selected.png)
+📷 **Apply Group Policy via gpupdate**  
+[11](screenshots/11-gpupdate-force.png)
 
-📷 Policy Applied via gpupdate  
-[12](screenshots/12-policy-applied-gpupdate.png)
+📷 **Log Off Windows 7 System**  
+[12](screenshots/12-win7-logoff.png)
 
-📷 Failed Login Attempts Simulation  
-[13](screenshots/13-failed-login-simulation.png)
+📷 **Simulate Failed Login Attempts**  
+[13](screenshots/13-failed-login-attempts.png)
 
-📷 Security Events Tab in Wazuh  
-[14](screenshots/14-security-events-tab.png)
+📷 **Select Win7 Machine in Wazuh**  
+[14](screenshots/14-select-win7-machine-wazuh.png)
 
-📷 Authentication Failure Logs Detected  
-[15](screenshots/15-auth-failure-logs.png)
+📷 **Open Security Events Tab**  
+[15](screenshots/15-open-security-events.png)
+
+📷 **Authentication Failure Logs Detected**  
+[16](screenshots/16-auth-failure-logs.png)
+
 
 
 ⚠️ Disclaimer
